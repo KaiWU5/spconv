@@ -18,6 +18,7 @@
 
 #include <pybind11/pybind11.h>
 // must include pybind11/eigen.h if using eigen matrix as arguments.
+#include <boost/geometry/geometries/geometries.hpp>
 #include <algorithm>
 #include <boost/geometry.hpp>
 #include <pybind11/numpy.h>

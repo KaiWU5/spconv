@@ -17,6 +17,7 @@
 #include <pybind11/pybind11.h>
 // must include pybind11/stl.h if using containers in STL in arguments.
 #include <algorithm>
+#include <boost/geometry/geometries/geometries.hpp>
 #include <boost/geometry.hpp>
 #include <pybind11/numpy.h>
 #include <pybind11/stl.h>
